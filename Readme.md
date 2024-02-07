@@ -58,7 +58,7 @@ Ce projet consiste en un formulaire d'authentification écrit en PHP, utilisant 
 ### Configuration
 
 1. **Base de Données (`process.php`):**
-   - Configurez les paramètres de la base de données (hôte, utilisateur, mot de passe, nom de la base de données) dans le fichier `process.php`.
+   - Configurer les paramètres de la base de données (hôte, utilisateur, mot de passe, nom de la base de données) dans le fichier `process.php`.
 
 2. **Création de la table users dans la base de données:**
    - CREATE TABLE users (
@@ -66,3 +66,13 @@ Ce projet consiste en un formulaire d'authentification écrit en PHP, utilisant 
     username VARCHAR(255) NOT NULL,
     password VARCHAR(255) NOT NULL
 );
+
+### Exécution du Projet
+
+1. Clonez le projet sur votre serveur web.
+2. Lancer le xampp ou wampp qui mettent en place un serveur Web local,et accéder à phpMyadmin puis faire configurer la base de données 
+3. Accédez à la page principale (`code.php`) dans votre navigateur (http://localhost/formulaireDauthentification/code.php)
+4. Pour l'ajout d'un compte faut juste remplir les champs identifiant et mot de passe si non un message d'erreur apparaît indiquant que le mot de passe saisi n'est pas fort(J'ai utilisé un seul formulaire pour l'authentification et l'inscription)
+5. Pour l'authentification faut juste remplir les informations validées et un message apparaît indiquant que l'authentification est réussit si non un message d'erreur apparaît.
+6. C'est pour remettre les champs à zéro
+7. Exemple d'un identifiant  MassiliaChell et mot de passe Massilia33*
